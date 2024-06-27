@@ -10,7 +10,7 @@ public class TestRomanNumber {
     }
 
     @Test
-    void should_return_12_for_2() {
-        assertEquals("12", RomanNumber.toto(2));
+    void should_return_II_for_2() {
+        assertEquals("II", RomanNumber.toto(2));
     }
 }
