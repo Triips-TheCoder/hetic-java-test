@@ -13,4 +13,9 @@ public class TestRomanNumber {
     void should_return_II_for_2() {
         assertEquals("II", RomanNumber.transform(2));
     }
+
+    @Test
+    void should_return_12_for_3() {
+        assertEquals("12", RomanNumber.transform(3));
+    }
 }
