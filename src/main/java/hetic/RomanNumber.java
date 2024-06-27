@@ -6,6 +6,6 @@ public class RomanNumber {
     }
 
     public static String toto(Integer number) {
-        return "12";
+        return "I";
     }
 }
