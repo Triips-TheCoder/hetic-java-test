@@ -28,4 +28,11 @@ public class TestRomanNumber {
     void should_return_V_for_5() {
         assertEquals("V", RomanNumber.transform(5));
     }
+
+    @Test
+    void should_return_only_I_letter_for_number_under_3() {
+        assertEquals("I", RomanNumber.transform(1));
+        assertEquals("II", RomanNumber.transform(2));
+        assertEquals("III", RomanNumber.transform(3));
+    }
 }

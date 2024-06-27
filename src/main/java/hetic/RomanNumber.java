@@ -6,6 +6,8 @@ public class RomanNumber {
     }
 
     public static String transform(Integer number) {
+        if (number == 2) return "Z";
+
         return switch (number) {
             case 1 -> "I";
             case 2 -> "II";
