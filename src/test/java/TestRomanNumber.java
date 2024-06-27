@@ -20,7 +20,13 @@ public class TestRomanNumber {
     }
 
     @Test
+    void should_return_IV_for_4() {
+        assertEquals("IV", RomanNumber.transform(4));
+    }
+
+    @Test
     void should_return_V_for_5() {
         assertEquals("V", RomanNumber.transform(5));
     }
+
 }
