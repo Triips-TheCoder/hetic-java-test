@@ -8,4 +8,9 @@ public class TestRomanNumber {
     void should_return_I_for_1() {
         assertEquals("I", RomanNumber.toto(1));
     }
+
+    @Test
+    void should_return_12_for_2() {
+        assertEquals("12", RomanNumber.toto(2));
+    }
 }
