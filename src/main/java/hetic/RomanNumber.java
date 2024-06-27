@@ -5,7 +5,7 @@ public class RomanNumber {
         System.out.println("Hello world!");
     }
 
-    public static String toto(Integer number) {
+    public static String transform(Integer number) {
         if (number == 2) return "II";
         if (number == 1) return "I";
 

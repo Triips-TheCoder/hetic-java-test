@@ -6,11 +6,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TestRomanNumber {
     @Test
     void should_return_I_for_1() {
-        assertEquals("I", RomanNumber.toto(1));
+        assertEquals("I", RomanNumber.transform(1));
     }
 
     @Test
     void should_return_II_for_2() {
-        assertEquals("II", RomanNumber.toto(2));
+        assertEquals("II", RomanNumber.transform(2));
     }
 }
