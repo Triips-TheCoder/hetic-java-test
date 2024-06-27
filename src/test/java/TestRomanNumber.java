@@ -28,5 +28,4 @@ public class TestRomanNumber {
     void should_return_V_for_5() {
         assertEquals("V", RomanNumber.transform(5));
     }
-
 }

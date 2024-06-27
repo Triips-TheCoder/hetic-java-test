@@ -6,12 +6,13 @@ public class RomanNumber {
     }
 
     public static String transform(Integer number) {
-        if (number == 5) return "V";
-        if (number == 4) return "IV";
-        if (number == 3) return "III";
-        if (number == 2) return "II";
-        if (number == 1) return "I";
-
-        return "I";
+        return switch (number) {
+            case 1 -> "I";
+            case 2 -> "II";
+            case 3 -> "III";
+            case 4 -> "IV";
+            case 5 -> "V";
+            default -> "I";
+        };
     }
 }
